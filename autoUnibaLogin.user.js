@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         autoUnibaLogin
 // @namespace    https://github.com/reloia/
-// @version      2025-12-05
+// @version      2025-12-05.2
 // @description  Script for auto login on Uniba's elearning platform
 // @author       reloia
 // @match        https://idpuniba.uniba.it/simplesaml/module.php/core/loginuserpassorg*
@@ -12,6 +12,7 @@
 // @grant        GM_deleteValue
 // @updateURL    https://raw.githubusercontent.com/reloia/autoUnibaLogin/master/autoUnibaLogin.user.js
 // @downloadURL  https://raw.githubusercontent.com/reloia/autoUnibaLogin/master/autoUnibaLogin.user.js
+// @license MIT
 // ==/UserScript==
 
 function waitForElement(selector, timeout = 10000) {
